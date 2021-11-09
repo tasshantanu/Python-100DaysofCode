@@ -1,0 +1,19 @@
+# 🚨 Don't change the code below 👇
+height = input("enter your height in m: ") #String
+weight = input("enter your weight in kg: ")
+# 🚨 Don't change the code above 👆
+
+#Write your code below this line 👇
+print (type(height))
+print (type(weight))
+
+#APPLY THE FORMULA
+bmi = (float(weight)/(float(height)*float(height)))
+print (bmi)
+print (type(bmi))
+
+#Convert to Integer
+bmi_whole = (int(bmi))
+print (bmi_whole)
+
+
