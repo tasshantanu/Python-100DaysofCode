@@ -1,0 +1,25 @@
+# 🚨 Don't change the code below 👇
+age = input("What is your current age? ")
+# 🚨 Don't change the code above 👆
+
+#Write your code below this line 👇
+#1 year = 365 days, 52 Weeks, 12 months
+print (type(age))
+
+#Covert age to integer
+age_int = int(age)
+print (type(age_int))
+
+#Calculated by substracting actual age from 90
+days = ((90 - age_int) * 365)
+weeks = ((90 - age_int) * 52)
+months = ((90 - age_int) * 12)
+
+#End Result
+print (f"You have {days} days. You have {weeks} weeks. You have {months} months")
+
+
+
+
+
+
