@@ -1,0 +1,16 @@
+# 🚨 Don't change the code below 👇
+two_digit_number = input("Type a two digit number: ")
+# 🚨 Don't change the code above 👆
+
+####################################
+#Write your code below this line 👇
+print (type (two_digit_number))
+
+#Coverted numbers from STRING to Integer and calculate the sum
+sum_two_digit_number = (int(two_digit_number [0]) + int(two_digit_number[1]))
+
+#Coverted Integer to STRING
+new_sum_two_digit_number = (str (sum_two_digit_number))
+
+#Print out the sum in Strings
+print (two_digit_number[0] + " + " + two_digit_number[1] + " = " + new_sum_two_digit_number)
