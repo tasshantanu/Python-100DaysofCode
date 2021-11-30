@@ -1,0 +1,18 @@
+direction = input("Choose your direction: Left or Right? ")
+if (direction == 'Left') or (direction == 'left'):
+  action = input("How do you want to proceed: Swim or Wait? ")
+  if (action == 'Wait') or (action == 'wait'):
+    door = input("Choose your door: Red, Yellow or Blue? ")
+    if (door == 'Blue') or (door == 'blue'):
+      print ("Eaten by beasts. GAME OVER")
+    elif (door == 'Red') or (door == 'red'):
+      print ("Burned by fire. GAME OVER")
+    elif (door == 'Yellow') or (door == 'yellow'):
+      print ("You Win")
+    else:
+      print ("GAME OVER")
+  if (action == 'Swim') or (action == 'swim'):
+    print ("Attacked by Trout. GAME OVER") 
+if (direction == 'Right') or (direction == 'right'):
+  print ("Fall into a hole. GAME OVER")
+  
